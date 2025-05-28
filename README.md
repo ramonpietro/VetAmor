@@ -110,3 +110,12 @@ Esse sistema contém informações específicas tanto de animais como de seus tu
 \- JavaScript para interações
 
 \- Google Fonts (Poppins)
+
+# Back-end
+
+## Tecnologias e Ferramentas
+
+- **Node.js** — plataforma para rodar o backend em JavaScript  
+- **Express.js** — framework para criar APIs e rotas de forma simples  
+- **Banco de Dados** — PostgreSQL
+- **Arquitetura** — organizada em pastas: `controllers`, `routes`, `models` e `database` para facilitar manutenção e escalabilidade
