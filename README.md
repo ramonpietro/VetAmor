@@ -117,21 +117,5 @@ Esse sistema contém informações específicas tanto de animais como de seus tu
 
 - **Node.js** — plataforma para rodar o backend em JavaScript  
 - **Express.js** — framework para criar APIs e rotas de forma simples  
-- **Banco de Dados** — *a definir* (ex: MongoDB, MySQL, SQLite)  
+- **Banco de Dados** — PostgreSQL
 - **Arquitetura** — organizada em pastas: `controllers`, `routes`, `models` e `database` para facilitar manutenção e escalabilidade
-
----
-
-## Estrutura da pasta back-end
-
-back-end/
-│
-├── controllers/ # Lógica dos endpoints
-├── routes/ # Definição das rotas da API
-├── models/ # Modelos de dados e esquemas
-├── database/ # Configuração e conexão com o banco
-├── index.js # Arquivo principal que inicia o servidor
-├── package.json # Dependências e scripts
-└── package-lock.json
-
----
