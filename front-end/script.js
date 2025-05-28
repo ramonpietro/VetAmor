@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    function showError(input, message) {
+    function showError(input, mcessage) {
         input.classList.add('error');
         const errorDiv = document.createElement('span');
         errorDiv.className = 'error-message';
