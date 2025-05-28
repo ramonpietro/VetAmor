@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica - Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#">Clínica</a>
+            <a href="#">Serviços</a>
+            <a href="#">Equipe</a>
+        </div>
+    </nav>
+    
+    <div class="register-container">
+        <h1>Crie sua conta!</h1>
+        
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="fullname">Nome completo:</label>
+                <input type="text" id="fullname" placeholder="Digite seu nome completo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="exemplo@clinica.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" placeholder="(00) 00000-0000" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Crie uma senha segura" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirmPassword">Confirme a senha:</label>
+                <input type="password" id="confirmPassword" placeholder="Repita a senha criada" required>
+            </div>
+            
+            <button type="submit">CADASTRAR</button>
+            
+            <div class="links">
+                <p>Já tem uma conta? <a href="index.html">Faça login</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
